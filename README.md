@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# Lorem Movie Review
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses [json-server](https://www.npmjs.com/package/json-server) to fetch data about movie reviews, create reviews, and delete reviews displaying the contents in a blog post layout.
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/40252813/197304553-372a5e58-626a-4285-985a-65f339a406a4.png)
 
-In the project directory, you can run:
+# Create Review
+![image](https://user-images.githubusercontent.com/40252813/197304860-71f4d091-2cd0-4610-b75e-fad6aaa44462.png)
 
-### `npm start`
+![image](https://user-images.githubusercontent.com/40252813/197304978-5254e45c-13e5-4c8c-b518-958feafb0b04.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##### The 'Test' Review was added to the bottom of the list
+![image](https://user-images.githubusercontent.com/40252813/197305007-6c9592a0-aced-4b19-ac25-eae6006d188a.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Delete Review
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/40252813/197305088-9d61c0ca-567d-4550-9aa0-f57823e30e6d.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### The 'Test' Review has been deleted from list
+![image](https://user-images.githubusercontent.com/40252813/197305110-273ac045-d521-4481-a937-05b32b309fab.png)
